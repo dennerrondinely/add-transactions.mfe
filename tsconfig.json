@@ -1,0 +1,11 @@
+
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["@mf-types/*", "*"]
+    }
+  },
+  "include": ["@mf-types/**/*.d.ts", "src/**/*"]
+}
